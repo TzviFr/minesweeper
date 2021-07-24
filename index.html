@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/minesweeper.css">
+
+    <title>Minesweeper</title>
+</head>
+
+<body onload="initGame()">
+
+    <h1> 💥 MINESWEEPER 💥</h1>
+
+    <button class="smiley" onclick="initGame()">😎</button>
+    <div></div>
+
+    <div class="timer">
+        <h2>Timer <span class="minutes">00</span>:<span class="seconds">00</span></h2>
+    </div>
+    <div class="alive"> LIVES:<span></span></div>
+    <div class="mark"> Marks Left ❌ <span></span></div>
+    <div class="victory">You Won !</div>
+    
+    <div class="level">
+        <button id="level1" class="levelBtn levelBtn1" onclick="selectedLevel('easy')">Easy(16)</button>
+        <button id="level2" class="levelBtn levelBtn2" onclick="selectedLevel('medium')">Medium(25)</button>
+        <button id="level3" class="levelBtn levelBtn3" onclick="selectedLevel('hard')">Hard(36)</button>
+    </div>
+
+    <table class="game-board" >
+        <tbody class="numsBoard" ></tbody>
+    </table>
+
+    <div class="copyRights">
+        CoffeeRights © 2021 Tzvi Forer
+    </div>
+
+
+    <script src="js/utils.js"></script>
+    <script src="js/game.js"></script>
+
+
+
+</body>
+
+</html>

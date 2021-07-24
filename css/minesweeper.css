@@ -1,0 +1,126 @@
+h1 {
+    color: rgb(238, 120, 69);
+    display: block;
+    text-shadow: 2px 4px #9b1010;
+    -webkit-text-stroke: 1px rgb(254, 251, 251);
+    opacity: 0.95;
+    font-size: 55px;
+    text-align: center;
+    font-family: 'VT323', monospace;
+    padding: 5px;
+}
+
+h2 {
+    padding: 15px;
+    border: rgba(117, 52, 34, 0.1) 3px solid;
+    color: rgb(40, 32, 29);
+    opacity: 0.9;
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+    text-shadow: 1px 1px #dfd1d1;
+    margin: 10px;
+    font-size: 42px;
+    font-family: 'VT323', monospace;
+}
+
+.smiley {
+    font-family: 'VT323', monospace;
+    text-shadow: 4px 6px #e6d8d8;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 10px;
+    height: 75px;
+    width: 75px;
+    border-radius: 25%;
+    border: rgb(227, 99, 63) 3px solid;
+    opacity: 0.95;
+}
+
+.levelBtn {
+    border: rgba(117, 52, 34, 0.2) 3px solid;
+    font-family: 'VT323', monospace;
+    text-shadow: 4px 6px #e6d8d8;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 35px;
+    padding: 3px;
+    font-size: 16px;
+    border-radius: 20%;
+    opacity: 0.85;
+    height: 55px;
+    width: 130px;
+}
+
+body {
+    text-align: center;
+    background: rgb(117, 52, 34);
+    background: linear-gradient(90deg, rgba(117, 52, 34, 1) 0%, rgba(176, 91, 59, 1) 51%, rgba(117, 52, 34, 1) 100%);
+}
+
+table.game-board {
+    text-shadow: 1px 2px #ac2c2c;
+    height: 450px;
+    width: 450px;
+    margin: auto;
+    text-align: center;
+    border-radius: 25%;
+    border-spacing: 5px;
+}
+
+td.cell {
+    background-color: #D79771;
+    border: #FCDEC0 solid;
+    text-shadow: 2px 1px #eb7900bd;
+    font-family: monospace;
+    font-style: bold;
+    font-size: 25px;
+    border-radius: 25%;
+}
+
+table.game-board :hover {
+    background-color: #bf8266;
+    cursor: pointer;
+}
+
+.shown {
+    background-color: rgb(223, 173, 173);
+}
+
+.alive {
+    opacity: 0.95;
+    border: rgba(117, 52, 34, 0.1) 3px solid;
+    color: rgb(29, 24, 22);
+    -webkit-text-stroke: 0.8px rgb(1, 0, 0);
+    text-shadow: 1px 3px #b59685;
+    font-size: 33px;
+    margin: 5px;
+    font-family: 'VT323', monospace;
+}
+
+.mark {
+    color: rgb(201, 0, 0);
+    opacity: 0.9;
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+    text-shadow: 1px 1px #171414;
+    margin: 18px;
+    padding: 8px;
+    font-size: 32px;
+    font-family: 'VT323', monospace;
+}
+
+.copyRights {
+    text-align: center;
+    font-size: 18px;
+    margin: 18px;
+}
+
+.victory {
+    display: none;
+    color: rgb(201, 0, 0);
+    opacity: 0.9;
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+    text-shadow: 1px 1px #171414;
+    margin: 35px;
+    padding: 8px;
+    font-size: 32px;
+    font-family: 'VT323', monospace;
+}
